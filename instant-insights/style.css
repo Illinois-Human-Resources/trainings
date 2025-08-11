@@ -188,7 +188,6 @@ body {
   overflow: hidden;
   transition: transform 0.2s ease;
   border: 1px solid #e5e7eb;
-  width: 450px;
 }
 
 .course-card:hover {
