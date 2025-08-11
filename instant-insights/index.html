@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Catalog of Instant Insights Modules</title>
-<link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header>
-        <div class="header-container">
-            <h1>Illinois Human Resources</h1>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Catalog - Instant Insights</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Instant Insights</h1>
+      </div>
     </header>
 
-    <main class="container">
-        <h2>Instant Insights Modules Catalog</h2>
-        <p>Discover curated employee modules to help you address common workplace challenges with confidence.</p>
+    <main class="main">
+      <div class="container">
+        <section class="hero">
+          <h1 class="hero-title">Course Catalog</h1>
+          <p class="hero-description">
+            Discover curated courses to level up your skills in development,
+            design, data, and business.
+          </p>
 
-        <form class="search-filter" role="search" aria-label="Search courses">
-            <label for="course-search" class="visually-hidden">Search courses: </label>
-            <input
-            type="search"
-            id="course-search"
-            name="course-search"
-            placeholder="Search courses by title or description"
-            aria-describedby="filter-description"
-            />
-            <div class="filter-btns" id="filter-description" role="group" aria-label="Filter courses">
-            <button type="button" class="active">All</button>
-            </div>
-        </form>
-
-        <section class="courses">
-            <div class="course-card">
-                <div class="course-image"></div>
-                <div class="course-content">
-                    <div class="course-title">Setting S.M.A.R.T. Goals for Employees</div>
-                    <p>Interactive lessons that explains the value of clear goal-setting</p>
-                    <div class="course-meta">
-                        <span>Employee</span> | <span>1 hour</span>
-                    </div>
-                </div>
-                <a href="https://illinois-human-resources.github.io/trainings/instant-insights/setting-smart-goals/" class="course-btn">View details</a>
-            </div>
+          <!--<div class="action-buttons">
+            <a href="#courses" class="btn btn-primary browse-courses-btn">Browse courses</a>
+          </div>-->
         </section>
-    </div>
-</body>
+
+        <section class="search-section">
+          <div class="search-container">
+            <label for="course-search" class="sr-only">Search courses: </label>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search courses by title or description"
+              aria-label="Search courses"
+            />
+            <button class="filter-btn" aria-label="Filter courses">All</button>
+          </div>
+        </section>
+
+        <section class="courses-section">
+          <h2 id="courses" class="visually-hidden">Courses</h2>
+          <div class="course-grid">
+            <article class="course-card">
+              <div class="course-image"></div>
+              <div class="course-content">
+                <h2 class="course-title">
+                  Setting S.M.A.R.T. Goals for Employees
+                </h2>
+                <p class="course-description">
+                  Interactive lessons that explains the value of clear
+                  goal-setting.
+                </p>
+
+                <div class="course-meta">
+                  <div class="meta-item">
+                    <span>Employee</span> | <time>1 hour</time>
+                  </div>
+                </div>
+                <a
+                  href="https://illinois-human-resources.github.io/trainings/instant-insights/setting-smart-goals"
+                  class="course-btn"
+                >
+                  View details
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
