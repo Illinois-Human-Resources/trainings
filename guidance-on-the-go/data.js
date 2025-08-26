@@ -37,7 +37,7 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "#"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-informally-under-the-ppp"
   },
   {
     "title": "Module: Addressing Performance Issues Formally Under the PPP",
@@ -45,7 +45,7 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "#"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-formally-under-the-ppp"
   },
   {
     "title": "Module: PPP Documentation",
@@ -53,6 +53,6 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "#"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/ppp-documentation"
   }
 ]
