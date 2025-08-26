@@ -5,7 +5,8 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "https://go.illinois.edu/guidance-on-the-go"
+    "link": "https://go.illinois.edu/guidance-on-the-go",
+    "category": "All"
   },
   {
     "title": "Module: Who Should I Contact?",
@@ -13,7 +14,8 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/who-should-i-contact"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/who-should-i-contact",
+    "category": "All"
   },
   {
     "title": "Module: What Is the FLSA?",
@@ -21,7 +23,8 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/what-is-the-flsa"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/what-is-the-flsa",
+    "category": "All"
   },
   {
     "title": "Module: Introduction to the PPP and Informal Positive Steps",
@@ -29,7 +32,8 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/introduction-to-the-ppp-and-informal-positive-steps"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/introduction-to-the-ppp-and-informal-positive-steps",
+    category: ["All", "PPP"]
   },
   {
     "title": "Module: Addressing Performance Issues Informally Under the PPP",
@@ -37,7 +41,8 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-informally-under-the-ppp"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-informally-under-the-ppp",
+    category: ["All", "PPP"]
   },
   {
     "title": "Module: Addressing Performance Issues Formally Under the PPP",
@@ -45,7 +50,8 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-formally-under-the-ppp"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-formally-under-the-ppp",
+    category: ["All", "PPP"]
   },
   {
     "title": "Module: PPP Documentation",
@@ -53,6 +59,7 @@ const courses = [
     "audience": "Supervisor",
     "duration": "PT1H",
     "durationText": "15 minutes",
-    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/ppp-documentation"
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/ppp-documentation",
+    category: ["All", "PPP"]
   }
 ]
