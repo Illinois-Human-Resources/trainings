@@ -31,7 +31,7 @@ body {
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #13294b;
   padding: 1.5rem 0;
   border-bottom: 1px solid #e5e7eb;
 }
@@ -45,7 +45,7 @@ body {
 .logo {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #13294b;
+  color: #ffffff;
 }
 
 .main {
@@ -82,7 +82,7 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
   border: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .btn-primary {
@@ -100,14 +100,14 @@ body {
 
 .btn-secondary {
   background-color: #ffffff;
-  color: #6b7280;
-  border: 1px solid #d1d5db;
+  color: #13294b;
+  border: 1px solid #13294b;
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus {
   background-color: #f9fafb;
-  border-color: #9ca3af;
+  border-color: #e8e9eb;
   outline: 2px solid #13294b;
   outline-offset: 2px;
 }
@@ -137,26 +137,6 @@ body {
   border-color: #13294b;
 }
 
-.filter-btn {
-  background-color: #13294b;
-  color: #ffffff;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 2rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-size: 0.875rem;
-}
-
-.filter-btn:hover,
-.filter-btn:focus {
-  background-color: #ffffff;
-  color: #13294b;
-  outline: 2px solid #13294b;
-  outline-offset: 2px;
-}
-
 .course-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -164,12 +144,13 @@ body {
 }
 
 .course-card {
+  width: 400px;
   background-color: #ffffff;
   border-radius: 0.75rem;
   overflow: hidden;
   transition: transform 0.2s ease;
   border: 1px solid #e5e7eb;
-  width: 400px;
+  margin-bottom: 40px;
 }
 
 .course-card:hover {
@@ -177,8 +158,9 @@ body {
 }
 
 .course-image {
+  width: 100%;
   height: 200px;
-  background: #ff5f05;
+  background: #e8e9eb;
 }
 
 .course-content {
@@ -222,13 +204,12 @@ body {
 }
 
 .course-btn {
-  width: 100%;
-  background-color: #13294b;
+  background-color: #ff5f05;
   color: #ffffff;
-  border: 1px solid #e5e7eb;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.2rem;
   border-radius: 0.5rem;
   font-weight: 600;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.2s ease;
   text-decoration: none;
@@ -292,7 +273,6 @@ body {
     padding: 1rem;
   }
 }
-
 
 *:focus {
   outline: 2px solid #ff5f05;

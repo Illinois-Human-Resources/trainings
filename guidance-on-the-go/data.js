@@ -5,7 +5,7 @@ const courses = [
     "audience": "Supervisors",
     //"duration": "PT1H",
     //"durationText": "15 minutes",
-    "link": "https://go.illinois.edu/guidance-on-the-go",
+    "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/setting-smart-goals/#/",
     "category": "All"
   },
   {
