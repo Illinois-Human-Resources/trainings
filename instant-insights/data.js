@@ -6,6 +6,8 @@ const courses = [
     //"duration": "PT1H",
     //"durationText": "15 minutes",
     "link": "https://illinois-human-resources.github.io/trainings/instant-insights/setting-smart-goals/#/",
-    "category": "All"
+    "category": "All",
+    "image": "./setting-smart-goals/assets/rZsHOtSX1m5Y84c5.jpg",
+    "alt": "A statue of a football player in action, holding a football and wearing an old-fashioned helmet, stands in front of a building with large columns."
   }
 ]

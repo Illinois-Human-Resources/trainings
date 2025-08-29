@@ -16,7 +16,7 @@ function renderCourses(filteredCourses) {
     article.className = "course-card";
 
     article.innerHTML = `
-      <div class="course-image"></div>
+      <img src="${course.image}" alt="${course.alt}" class="course-image" />
       <div class="course-content">
         <h2 class="course-title">${course.title}</h2>
         <p class="course-description">${course.description}</p>

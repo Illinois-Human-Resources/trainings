@@ -6,7 +6,9 @@ const courses = [
     //"duration": "PT1H",
     //"durationText": "15 minutes",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/setting-smart-goals/#/",
-    "category": "All"
+    "category": "All",
+    "image": "./setting-smart-goals/assets/rZsHOtSX1m5Y84c5.jpg",
+    "alt": "A statue of a football player in action, holding a football and wearing an old-fashioned helmet, stands in front of a building with large columns."
   },
   {
     "title": "Module: Who Should I Contact?",
@@ -15,7 +17,9 @@ const courses = [
     //"duration": "PT1H",
     //"durationText": "",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/who-should-i-contact",
-    "category": "All"
+    "category": "All",
+    "image": "./who-should-i-contact/assets/fetvbRcs-f9kr7qy.jpg",
+    "alt": "A close-up view of a decorative column topped with an ornate light fixture. The word 'Class' is engraved on the column, and lush green trees are visible in the background."
   },
   {
     "title": "Module: What Is the FLSA?",
@@ -24,7 +28,9 @@ const courses = [
     //"duration": "PT1H",
     //"durationText": "7 minutes",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/what-is-the-flsa",
-    "category": "All"
+    "category": "All",
+    "image": "./what-is-the-flsa/assets/NasgblbYEVP_bIDs.jpg",
+    "alt": "An architectural structure featuring four tall columns supporting an entablature with the inscription 'LEARNING & LABOR."
   },
   {
     "title": "Module: Introduction to the PPP and Informal Positive Steps",
@@ -33,7 +39,9 @@ const courses = [
     //"duration": "PT1H",
     //"durationText": "10 minutes",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/introduction-to-the-ppp-and-informal-positive-steps",
-    "category": ["All", "PPP"]
+    "category": ["All", "PPP"],
+    "image": "./introduction-to-the-ppp-and-informal-positive-steps/assets/Tdurv7eGYFAmKtZ9.jpg",
+    "alt": "A close-up of a statue featuring two hands clasping each other, symbolizing unity or support."
   },
   {
     "title": "Module: Addressing Performance Issues Informally Under the PPP",
@@ -42,7 +50,9 @@ const courses = [
     //"duration": "PT1H",
     //"durationText": "10 minutes",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-informally-under-the-ppp",
-    "category": ["All", "PPP"]
+    "category": ["All", "PPP"],
+    "image": "./addressing-performance-issues-informally-under-the-ppp/assets/4nwPLQCc8fCChm5F.jpg",
+    "alt": "Two individuals seated at a table, engaged in conversation or study, with books and papers spread out; their faces are not visible."
   },
   {
     "title": "Module: Addressing Performance Issues Formally Under the PPP",
@@ -51,7 +61,9 @@ const courses = [
     //"duration": "PT1H",
     //"durationText": "10 minutes",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-formally-under-the-ppp",
-    "category": ["All", "PPP"]
+    "category": ["All", "PPP"],
+    "image": "./addressing-performance-issues-formally-under-the-ppp/assets/stock-image.jpg",
+    "alt": "Angled view of textured stone steps, with shadows emphasizing the depth and surface details."
   },
   {
     "title": "Module: PPP Documentation",
@@ -60,6 +72,8 @@ const courses = [
     //"duration": "PT1H",
     //"durationText": "",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/ppp-documentation",
-    "category": ["All", "PPP"]
+    "category": ["All", "PPP"],
+    "image": "./ppp-documentation/assets/WUSM7_ypu4L_C-iy.jpg",
+    "alt": "A pair of hands typing on a laptop keyboard, which is placed on a light-colored wooden surface."
   }
 ]
