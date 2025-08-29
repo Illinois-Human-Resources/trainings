@@ -141,9 +141,12 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
+  justify-content: center;
 }
 
 .course-card {
+  width: 100%;
+  max-width: 350px;
   background-color: #ffffff;
   border-radius: 0.7rem;
   overflow: hidden;
