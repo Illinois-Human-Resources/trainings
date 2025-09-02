@@ -62,7 +62,7 @@ const courses = [
     //"durationText": "10 minutes",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-formally-under-the-ppp",
     "category": ["All", "PPP"],
-    "image": "./addressing-performance-issues-formally-under-the-ppp/assets/stock-image.jpg",
+    "image": "./addressing-performance-issues-formally-under-the-ppp/assets/keZPZxwx7MZ3T7hq.jpg",
     "alt": "Angled view of textured stone steps, with shadows emphasizing the depth and surface details."
   },
   {
