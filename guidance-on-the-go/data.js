@@ -59,7 +59,7 @@ const courses = [
     "description": "Formal PPP steps for progressive discipline and compliance.",
     "audience": "Supervisors",
     "duration": "PT1H",
-    "durationText": "| 10 minutes",
+    "durationText": "| 15 minutes",
     "link": "https://illinois-human-resources.github.io/trainings/guidance-on-the-go/addressing-performance-issues-formally-under-the-ppp",
     "category": ["All", "PPP"],
     "image": "./addressing-performance-issues-formally-under-the-ppp/assets/keZPZxwx7MZ3T7hq.jpg",
